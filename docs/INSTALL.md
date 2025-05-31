@@ -3,21 +3,21 @@
 ### 📦 Install via pyPI (recommended)
 
 ```bash
-pip install pyLog
+pip install loggerpython
 ```
 
 ### 💻 Install from source
 
-1. Clone the repo [Python-Logger](https://github.com/mainframematrix/Python-Logger.git)
+1. Clone the repo [LoggerPython](https://github.com/mainframematrix/LoggerPython.git)
 
     ```bash
-    git clone https://github.com/mainframematrix/Python-Logger.git
+    git clone https://github.com/mainframematrix/LoggerPython.git
     ```
 
 2. Navigate into the cloned directory:
 
    ```bash
-   cd Python-Logger
+   cd LoggerPython
    ```
 
 3. Install the package:
@@ -29,7 +29,7 @@ pip install pyLog
 
 ### 📁 Install from wheel files
 
-1. Download the `.whl` wheel file from [releases](https://github.com/mainframematrix/Python-Logger/releases)
+1. Download the `.whl` wheel file from [releases](https://github.com/mainframematrix/LoggerPython/releases)
 
 2. Install the wheel 
     ```bash
@@ -39,11 +39,11 @@ pip install pyLog
 ### 🔗 Install from GitHub
 
 ```bash
-pip install git+https://github.com/mainframematrix/Python-Logger.git
+pip install git+https://github.com/mainframematrix/LoggerPython.git
 ```
 
 To install a specific branch or tag:
 
 ```bash
-pip install git+https://github.com/mainframematrix/Python-Logger.git@<branch/tag>
+pip install git+https://github.com/mainframematrix/LoggerPython.git@<branch/tag>
 ```

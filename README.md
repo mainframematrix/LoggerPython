@@ -1,4 +1,4 @@
-# Python-Logger
+# LoggerPython
 
 A Simple Python Logging Framework.
 
@@ -16,5 +16,5 @@ A logging framework that provides different logging levels as listed below:
 For full instructions, see [INSTALL.md](./docs/INSTALL.md), or use:
 
 ```bash
-pip install pyLog
+pip install loggerpython
 ```
