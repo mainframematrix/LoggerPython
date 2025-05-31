@@ -59,6 +59,6 @@ Please use the correct PR template based on your change:
 
 ## 📢 Need Help?
 
-If you're stuck, open a [discussion](../../discussions) or reach out to the maintainers.
+If you're stuck, open a [discussion](https://github.com/orgs/mainframematrix/discussions) or reach out to the maintainers.
 
 Thanks again for contributing!
