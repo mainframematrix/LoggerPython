@@ -1,0 +1,78 @@
+name: "✨ Feature Report"
+description: Suggest a new feature or enhancement for this project
+title: "[FEATURE]: "
+type: Feature
+labels:
+  - enhancement
+  - needs triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a new feature.
+
+  - type: input
+    id: feature-title
+    attributes:
+      label: Feature Title
+      description: Briefly describe the feature.
+      placeholder: A concise title for the feature report.
+
+  - type: checkboxes
+    id: duplication-check
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the feature you want to suggest.
+      options:
+        - label: I have searched the existing issues
+          required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear and concise description of the feature you want to see.
+      placeholder: |
+        Describe the feature you'd like to request...
+    validations:
+      required: true
+
+  - type: textarea
+    id: necessity
+    attributes:
+      label: Why is this needed?
+      description: Explain the problem or use case that this feature would address.
+      placeholder: |
+        Why do you want this feature?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_solution
+    attributes:
+      label: Suggested Solution
+      description: Describe how you envision the feature working. Include screenshots or diagrams if helpful.
+      placeholder: |
+        How should the feature work?
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you tried any workarounds or considered other solutions?
+      placeholder: |
+        Other approaches you've considered...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
+      description: Any other information, links, or context you want to share.
+      placeholder: |
+        Additional details or examples
+    validations:
+      required: false

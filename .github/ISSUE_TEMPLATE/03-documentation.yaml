@@ -1,0 +1,59 @@
+name: "📝 Documentation"
+description: Report missing, outdated, or unclear documentation
+title: "[DOCS]: "
+labels:
+  - documentation
+  - needs triage
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the documentation! Please provide details below.
+
+  - type: input
+    id: doc-topic
+    attributes:
+      label: Documentation Topic
+      description: Which part of the documentation does this issue relate to?
+      placeholder: |
+        e.g., Setup guide, API reference, README section
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Type of Documentation Issue
+      description: Select all that apply.
+      options:
+        - Missing documentation
+        - Outdated documentation
+        - Unclear or confusing explanation
+        - Broken links or formatting issues
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-docs
+    attributes:
+      label: Current Documentation (if any)
+      description: Share the current documentation snippet or link if it exists.
+      placeholder: |
+        e.g., Link to the existing doc or code snippet
+
+  - type: textarea
+    id: improvement-suggestion
+    attributes:
+      label: Suggested Improvements
+      description: Describe what should be added, updated, or clarified.
+      placeholder: |
+        Suggest a rewrite, reorganization, or new examples...
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Any other details, links, screenshots, or examples that might help.
+      placeholder: |
+        e.g., Screenshots, reference links, related issues
