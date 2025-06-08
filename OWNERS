@@ -1,0 +1,9 @@
+# Code ownership mapping
+
+# Global owners
+* @mainframematrix/python-developers
+
+# Directory specific owners
+
+/loggerpython/  @Ashmi09
+/docs/          @sahay-shashank
